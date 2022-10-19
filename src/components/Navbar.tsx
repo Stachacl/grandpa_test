@@ -9,22 +9,22 @@ export const Navbar: React.FunctionComponent = () => (
 
       <ul id="nav-mobile" className="right hide-on-med-and-down">
         <li>
-          <a href="sass.html"> <i className="material-icons left">font_download</i>Increase font
+          <a href="/"> <i className="material-icons left">font_download</i>Increase font
             size </a> 
         </li>
 
         <li>
-          <a href="sass.html">
+          <a href="/">
             <i className="material-icons left">volume_up</i>Read the page to me
           </a>
         </li>
  
         <li>
-          <a href="sass.html">
+          <a href="/">
             <i className="material-icons left">email</i>Contact
           </a>
         </li>
-        
+
       </ul>
     </div>
   </nav>
