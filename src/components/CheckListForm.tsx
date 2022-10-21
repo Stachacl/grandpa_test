@@ -7,10 +7,11 @@ export const CheckListForm: React.FC = () => {
     setTitle(event.target.value);
   };
 
-
 const keyPressHadler = (event: React.KeyboardEvent) => {
   if (event.key === "Enter") {
   console.log(title)
+  //reset input field to empty after submit:
+  setTitle('')
   }
 }
 
