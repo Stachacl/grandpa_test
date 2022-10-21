@@ -7,11 +7,20 @@ export const CheckListForm: React.FC = () => {
     setTitle(event.target.value);
   };
 
+
+const keyPressHadler = (event: React.KeyboardEvent) => {
+  if (event.key === "Enter") {
+  console.log(title)
+  }
+}
+
+
   return (
     <div className="imput-field mt2">
       <input
         value={title}
         onChange={changeHandler}
+        onKeyPress={keyPressHadler}
         type="text"
         id="title"
         autoFocus
@@ -25,3 +34,4 @@ export const CheckListForm: React.FC = () => {
 };
 
 export default CheckListForm;
+
