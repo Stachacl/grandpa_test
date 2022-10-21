@@ -1,14 +1,23 @@
-import React from 'react'
+import React, { useState } from "react";
 
 export const CheckListForm: React.FC = () => {
-  return (
-    <div className='imput-field'>
-    <input type="text" id="title" autoFocus />
-    <label htmlFor='title' className='active'  >
-        Add your custom check point
-    </label>
-    </div>
-  )
-}
+  const [title, setTitle] = useState<string>("");
 
-export default CheckListForm
+  return (
+    <div className="imput-field mt2">
+      <input
+        value={title}
+     
+        type="text"
+        id="title"
+        autoFocus
+        placeholder="Your custom check point"
+      />
+      <label htmlFor="title" className="active">
+        Add your check point
+      </label>
+    </div>
+  );
+};
+
+export default CheckListForm;
