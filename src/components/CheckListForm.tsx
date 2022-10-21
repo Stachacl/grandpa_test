@@ -17,7 +17,7 @@ export const CheckListForm: React.FC <CkeckListFormProps> = (props) => {
 
 const keyPressHadler = (event: React.KeyboardEvent) => {
   if (event.key === "Enter") {
-  console.log(title)
+  props.onAdd(title) 
   //reset input field to empty after submit:
   setTitle('')
   }

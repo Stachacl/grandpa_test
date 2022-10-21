@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import CheckList from "./components/CheckList";
 import CheckListForm from "./components/CheckListForm";
 import { Navbar } from "./components/Navbar";
 
@@ -13,6 +14,7 @@ const App: React.FunctionComponent = () => {
     <>
       <Navbar />
       <div className="container">
+        <CheckList />
         <CheckListForm onAdd={addHandler}/>
       </div>
     </>
