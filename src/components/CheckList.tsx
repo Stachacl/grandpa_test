@@ -1,7 +1,8 @@
 import React from 'react'
+import { ICheckList } from '../interfaces'
 
 type CheckListProps = {
-    checklist: any[]
+    checklist: ICheckList[]
 }
 
 export const CheckList: React.FC<CheckListProps> = ({ checklist }) => {
