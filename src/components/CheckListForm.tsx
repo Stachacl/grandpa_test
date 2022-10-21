@@ -2,7 +2,8 @@ import React, { useState } from "react";
 
 //other way to do input - is to useRef hook, but I am using useState this time
 
-export const CheckListForm: React.FC = () => {
+// <{onAdd():void}> = (props) - here I am letting TypeScript know that i am expecting onAdd void in the App.tst 
+export const CheckListForm: React.FC <{onAdd(title:string):void}> = (props) => {
   const [title, setTitle] = useState<string>("");
   
   const changeHandler = (event: React.ChangeEvent<HTMLInputElement>) => {
