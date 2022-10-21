@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 
+//other way to do input - is to useRef hook, but I am using useState this time
+
 export const CheckListForm: React.FC = () => {
   const [title, setTitle] = useState<string>("");
   
