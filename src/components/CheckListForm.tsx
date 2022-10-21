@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 //other way to do input - is to useRef hook, but I am using useState this time
 
-// interface that describes component's properties:
+// interface that describes component's parameters:
 interface CkeckListFormProps {
   //i am expecting onAdd fnction with the type void - nothing to return, and it will have a title with the type sting:
   onAdd(title:string): void

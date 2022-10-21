@@ -1,15 +1,24 @@
 import React from 'react'
 
-export const CheckList: React.FC = () => {
+type CheckListProps = {
+    checklist: any[]
+}
+
+export const CheckList: React.FC<CheckListProps> = ({ checklist }) => {
   return (
     <ul>
-        <li className='checklist'>
-           <label>
-            <input type="checkbox" />
-            <span></span>
-            <i className='material-icons red-text'>delete</i>
-           </label>
-        </li>
+        {checklist.map(checkListItem => {
+            return (
+              <li className='checkListItem'>
+                <label>
+                 <input type="checkbox" />
+                 <span></span>
+                 <i className='material-icons red-text'>delete</i>
+                </label>
+              </li>
+            )
+        } )}
+       
     </ul>
     
   )

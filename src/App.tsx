@@ -7,14 +7,18 @@ const App: React.FunctionComponent = () => {
   const [checkList, setCheckList] = useState([]);
 
   const addHandler = (title: string) => {
-    console.log("Add new item", title)
+    const newChecklistItem = {
+      title: title,
+      id: Date.now,
+      completed: false
+    }
   }
 
   return (
     <>
       <Navbar />
       <div className="container">
-        <CheckList />
+        <CheckList checklist={checkList}/>
         <CheckListForm onAdd={addHandler}/>
       </div>
     </>
