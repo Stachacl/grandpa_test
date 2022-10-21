@@ -16,8 +16,10 @@ const App: React.FunctionComponent = () => {
       id: Date.now(),
       completed: false
     }
+    // This line will not guarantee that the app is working with the current state: 
+    // setCheckList([newChecklistItem, ...checkList])
 
-    setCheckList([newChecklistItem, ...checkList])
+    setCheckList(prev => [newChecklistItem, ...prev])
   }
 
   return (
