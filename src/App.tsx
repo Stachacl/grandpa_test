@@ -12,6 +12,8 @@ const App: React.FunctionComponent = () => {
       id: Date.now,
       completed: false
     }
+
+    setCheckList([newChecklistItem, ...checkList])
   }
 
   return (
