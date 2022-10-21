@@ -2,14 +2,18 @@ import React, { useState } from "react";
 import CheckList from "./components/CheckList";
 import CheckListForm from "./components/CheckListForm";
 import { Navbar } from "./components/Navbar";
+import { ICheckList } from "./interfaces";
 
 const App: React.FunctionComponent = () => {
-  const [checkList, setCheckList] = useState([]);
+
+  //UseState is using inteface ICheckList and it is an array []
+
+  const [checkList, setCheckList] = useState<ICheckList[]>([]);
 
   const addHandler = (title: string) => {
-    const newChecklistItem = {
+    const newChecklistItem: ICheckList = {
       title: title,
-      id: Date.now,
+      id: Date.now(),
       completed: false
     }
 
