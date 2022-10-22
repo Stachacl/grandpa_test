@@ -4,11 +4,11 @@ import { ICheckList } from "../interfaces";
 type CheckListProps = {
   checkList: ICheckList[];
   //parameters to handle checkbox and Bin icon
-  onCheckBox: (id: number) => void;
-  onBin: (id: number) => void;
+  onCheckBox(id: number) : void;
+  onBin(id: number) : void;
 };
 
-export const CheckList: React.FC<CheckListProps> = ({
+export const CheckListComponent: React.FC<CheckListProps> = ({
   checkList,
   onCheckBox,
   onBin,
@@ -29,7 +29,7 @@ export const CheckList: React.FC<CheckListProps> = ({
             <label>
               <input
                 type="checkbox"
-                checked={checkListItem.completed}
+                // checked={checkListItem.completed}
                 onChange={onCheckBox.bind(null, checkListItem.id)}
               />
               <span>{checkListItem.title}</span>
@@ -47,4 +47,4 @@ export const CheckList: React.FC<CheckListProps> = ({
   );
 };
 
-export default CheckList;
+export default CheckListComponent;

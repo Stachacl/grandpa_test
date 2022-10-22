@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import CheckList from "./components/CheckList";
+import CheckListComponent from "./components/CheckList";
 import CheckListForm from "./components/CheckListForm";
 import { Navbar } from "./components/Navbar";
 import { ICheckList } from "./interfaces";
@@ -22,7 +22,7 @@ const App: React.FunctionComponent = () => {
   };
 
   const ckeckBoxHandler = (id: number) => {
-    setCheckList((prev) =>
+    setCheckList(prev =>
       prev.map(checkListItem => {
         if (checkListItem.id === id) {
           checkListItem.completed = !checkListItem.completed;
@@ -41,12 +41,13 @@ const App: React.FunctionComponent = () => {
     <>
       <Navbar />
       <div className="container">
-        <CheckList
+        <CheckListForm onAdd={addHandler} />
+        <CheckListComponent
           checkList={checkList}
           onCheckBox={ckeckBoxHandler}
           onBin={binHandler}
         />
-        <CheckListForm onAdd={addHandler} />
+  
       </div>
     </>
   );
