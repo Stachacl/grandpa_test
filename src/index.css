@@ -37,4 +37,9 @@ code {
   cursor: pointer;
   padding: 1rem;
   background: rgb(247, 247, 247);
+  z-index: 1;
+}
+
+.checkListItem i {
+  z-index: 2;
 }
