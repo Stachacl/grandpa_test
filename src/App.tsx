@@ -29,7 +29,7 @@ const App: React.FunctionComponent = () => {
     <>
       <Navbar />
       <div className="container">
-        <CheckList checklist={checkList}/>
+        <CheckList checklist={checkList} onCheckBox={ckeckBoxHandler} onBin={binHandler}/>
         <CheckListForm onAdd={addHandler}/>
       </div>
     </>

@@ -5,10 +5,10 @@ type CheckListProps = {
     checklist: ICheckList[]
     //parameters to handle checkbox and Bin icon 
     onCheckBox(id: number): void
-    onBin: () => void
+    onBin(id: number): void
 }
 
-export const CheckList: React.FC<CheckListProps> = ({ checklist }) => {
+export const CheckList: React.FC<CheckListProps> = ({ checklist, onCheckBox, onBin }) => {
   return (
     <ul>
         {checklist.map(checkListItem => {
