@@ -11,9 +11,12 @@ export const CheckList: React.FC<CheckListProps> = ({ checklist }) => {
         {checklist.map(checkListItem => {
 
             const classes = ['checkListItem']
-            
+            if (checkListItem.completed) {
+                classes.push("completed")
+            }
+
             return (
-              <li className='checkListItem' key={checkListItem.id}>
+              <li className={classes.join(' ')} key={checkListItem.id}>
                 <label>
                  <input type="checkbox" checked={checkListItem.completed} />
                  <span>{checkListItem.title}</span>
