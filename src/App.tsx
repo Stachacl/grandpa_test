@@ -22,6 +22,9 @@ const App: React.FunctionComponent = () => {
     setCheckList(prev => [newChecklistItem, ...prev])
   }
 
+  const ckeckBoxHandler = (id: number) => {}
+  const binHandler = (id: number) => {}
+
   return (
     <>
       <Navbar />
