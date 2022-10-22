@@ -3,6 +3,9 @@ import { ICheckList } from '../interfaces'
 
 type CheckListProps = {
     checklist: ICheckList[]
+    //parameters to handle checkbox and Bin icon 
+    onCheckBox(id: number): void
+    onBin: () => void
 }
 
 export const CheckList: React.FC<CheckListProps> = ({ checklist }) => {
