@@ -14,13 +14,16 @@ const App: React.FunctionComponent = () => {
   //1) Getting items from local storage:
   useEffect(() => {
     //in case local storage is null - adding  empty array []
-    const saved = JSON.parse(localStorage.getItem('checkList') || '[]') as  ICheckList[] 
-    setCheckList(saved)
+    const saved = JSON.parse(
+      localStorage.getItem("checkList") || "[]"
+    ) as ICheckList[];
+    setCheckList(saved);
   }, [])
- //2) Saving items to local storage:
+  //2) Saving items to local storage:
   useEffect(() => {
-
-  }, [checkList])
+    if(checkList.length !== 0){        //this line is new
+    localStorage.setItem("checkList", JSON.stringify(checkList));
+  }}, [checkList]);
 
   const addHandler = (title: string) => {
     const newChecklistItem: ICheckList = {
@@ -35,8 +38,8 @@ const App: React.FunctionComponent = () => {
   };
 
   const ckeckBoxHandler = (id: number) => {
-    setCheckList(prev =>
-      prev.map(checkListItem => {
+    setCheckList((prev) =>
+      prev.map((checkListItem) => {
         if (checkListItem.id === id) {
           checkListItem.completed = !checkListItem.completed;
         }
@@ -60,7 +63,6 @@ const App: React.FunctionComponent = () => {
           onCheckBox={ckeckBoxHandler}
           onBin={binHandler}
         />
-  
       </div>
     </>
   );
