@@ -9,10 +9,12 @@ const App: React.FunctionComponent = () => {
 
   const [checkList, setCheckList] = useState<ICheckList[]>([]);
 
-  //storing users custom items in the local storage
-
+  //storing users custom items in the local storage:
   useEffect(() => {
-    cost saved =localStorage.getItem('checkList')
+    //in case local storage is null - adding  empty array []
+    const saved = JSON.parse(localStorage.getItem('checkList') || '[]') as  ICheckList[] 
+
+    setCheckList(saved)
   }, [])
 
   const addHandler = (title: string) => {
