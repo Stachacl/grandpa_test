@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import CheckListComponent from "./components/CheckList";
 import CheckListForm from "./components/CheckListForm";
 import { Navbar } from "./components/Navbar";
@@ -8,6 +8,12 @@ const App: React.FunctionComponent = () => {
   //UseState is using inteface ICheckList and it is an array []
 
   const [checkList, setCheckList] = useState<ICheckList[]>([]);
+
+  //storing users custom items in the local storage
+
+  useEffect(() => {
+    cost saved =localStorage.getItem('checkList')
+  }, [])
 
   const addHandler = (title: string) => {
     const newChecklistItem: ICheckList = {
