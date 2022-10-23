@@ -1,6 +1,4 @@
 import React, { useEffect, useState } from "react";
-import CheckListComponent from "./components/CheckList";
-import CheckListForm from "./components/CheckListForm";
 import { Navbar } from "./components/Navbar";
 import { ICheckList } from "./interfaces";
 
@@ -57,12 +55,7 @@ const App: React.FunctionComponent = () => {
     <>
       <Navbar />
       <div className="container">
-        <CheckListForm onAdd={addHandler} />
-        <CheckListComponent
-          checkList={checkList}
-          onCheckBox={ckeckBoxHandler}
-          onBin={binHandler}
-        />
+        
       </div>
     </>
   );

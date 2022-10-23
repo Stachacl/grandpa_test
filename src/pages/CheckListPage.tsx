@@ -1,9 +1,16 @@
-import React from 'react'
+import React from "react";
+import CheckListComponent from "../components/CheckList";
+import CheckListForm from "../components/CheckListForm";
 
-function CheckListPage() {
+export const CheckListPage: React.FC = () => {
   return (
-    <div>CheckListPage</div>
-  )
-}
-
-export default CheckListPage
+    <React.Fragment>
+      <CheckListForm onAdd={addHandler} />
+      <CheckListComponent
+        checkList={checkList}
+        onCheckBox={ckeckBoxHandler}
+        onBin={binHandler}
+      />
+    </React.Fragment>
+  );
+};
