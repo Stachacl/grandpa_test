@@ -8,15 +8,15 @@ const App: React.FunctionComponent = () => {
   
   return (
     <>
+     <BrowserRouter> 
       <Navbar />
       <div className="container">
-       <BrowserRouter> 
          <Routes>
            <Route element={<CheckListPage/>} path='/'/>
-           <Route element={<ContactPage/>} path='/'/>
+           <Route element={<ContactPage/>} path='/contact'/>
          </Routes>
-        </BrowserRouter>
       </div>
+      </BrowserRouter>
     </>
   );
 };

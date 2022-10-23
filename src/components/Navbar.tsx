@@ -10,8 +10,11 @@ export const Navbar: React.FunctionComponent = () => (
 
       <ul id="nav-mobile" className="right hide-on-med-and-down">
         <li>
-          <NavLink to="/"> <i className="material-icons left">font_download</i>Increase font
-            size </NavLink> 
+          <NavLink to="/">
+            {" "}
+            <i className="material-icons left">font_download</i>Increase font
+            size{" "}
+          </NavLink>
         </li>
 
         <li>
@@ -19,13 +22,12 @@ export const Navbar: React.FunctionComponent = () => (
             <i className="material-icons left">volume_up</i>Read the page to me
           </NavLink>
         </li>
- 
+
         <li>
-          <NavLink to="/">
+          <NavLink to="/contact">
             <i className="material-icons left">email</i>Contact
           </NavLink>
         </li>
-
       </ul>
     </div>
   </nav>
