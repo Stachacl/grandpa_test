@@ -29,7 +29,7 @@ export const CheckListComponent: React.FC<CheckListProps> = ({
             <label>
               <input
                 type="checkbox"
-                // checked={checkListItem.completed}
+                checked={checkListItem.completed} //if I remove this line - checkbox will be working  separately, BUT not changing CSS and completed state
                 onChange={onCheckBox.bind(null, checkListItem.id)}
               />
               <span>{checkListItem.title}</span>

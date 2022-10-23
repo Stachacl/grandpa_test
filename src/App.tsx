@@ -41,7 +41,7 @@ const App: React.FunctionComponent = () => {
     setCheckList((prev) =>
       prev.map((checkListItem) => {
         if (checkListItem.id === id) {
-          checkListItem.completed = !checkListItem.completed;
+          checkListItem.completed = !checkListItem.completed
         }
         return checkListItem;
       })
