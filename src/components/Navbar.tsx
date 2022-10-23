@@ -10,20 +10,20 @@ export const Navbar: React.FunctionComponent = () => (
 
       <ul id="nav-mobile" className="right hide-on-med-and-down">
         <li>
-          <a href="/"> <i className="material-icons left">font_download</i>Increase font
-            size </a> 
+          <NavLink to="/"> <i className="material-icons left">font_download</i>Increase font
+            size </NavLink> 
         </li>
 
         <li>
-          <a href="/">
+          <NavLink to="/">
             <i className="material-icons left">volume_up</i>Read the page to me
-          </a>
+          </NavLink>
         </li>
  
         <li>
-          <a href="/">
+          <NavLink to="/">
             <i className="material-icons left">email</i>Contact
-          </a>
+          </NavLink>
         </li>
 
       </ul>
