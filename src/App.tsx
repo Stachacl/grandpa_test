@@ -9,9 +9,9 @@ const App: React.FunctionComponent = () => {
   return (
     <>
      <BrowserRouter> 
-      <Navbar />
+        <Navbar />
       <div className="container">
-         <Routes>
+        <Routes>
            <Route element={<CheckListPage/>} path='/'/>
            <Route element={<ContactPage/>} path='/contact'/>
          </Routes>
