@@ -7,8 +7,10 @@ export const Hero: React.FC = () => {
   return (
     <div className="hero">
       <div className="row">
-        <div className= "col s12 m6"> 
+        <div className= "col s12 m6 opacity "> 
+        <div className="text-block">
         <h1> My Grandpa will test your website</h1>
+  
         <FontSizeChanger
           targets={["#target .content"]}
           options={{
@@ -19,7 +21,8 @@ export const Hero: React.FC = () => {
           //   up: <i className="small material-icons ">font_download</i>,
           //   down: <i className="tiny material-icons ">font_download</i>,
           // }}
-        />
+         />
+  
         <div id="target">
           <h5 className="content">
             If your business is in a jargon-heavy industry—and you feel it helps
@@ -33,6 +36,7 @@ export const Hero: React.FC = () => {
             to develop a set of consistent terminology within your company that
             everyone understands.
           </h5>
+        </div>
         </div>
 
         <div>

@@ -21,6 +21,15 @@ code {
   position: relative;
 }
 
+.row {
+  padding: 2rem;
+}
+.opacity {
+  background-color:  rgba(252, 224, 201, 0.5);
+}
+.text-block {
+  padding: 2rem;
+}
 .px1 {
   padding-left: 1rem;
   padding-right: 1rem;
