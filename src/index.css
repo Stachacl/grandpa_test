@@ -12,9 +12,13 @@ code {
     monospace;
 }
 
-hero {
-  background: url ("https://ik.imagekit.io/stcl/Grandpa/grandpa1_9CKLLvI8z.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1666608394593")
-  /* alt="Grandpa is testing your website on his laptop, sitting on the couch" */
+.hero {
+  padding: 1%;
+  background-image: url("https://ik.imagekit.io/stcl/Grandpa/grandpa1_9CKLLvI8z.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1666608394593") !important;
+  background-repeat: no-repeat !important;
+  background-size: cover;
+  width: 100%;
+  position: relative;
 }
 
 .px1 {
