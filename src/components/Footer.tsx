@@ -7,7 +7,7 @@ export const Footer: React.FunctionComponent = () => (
       <div className="row">
         <div className="col l6 s12">
           <h5 className="white-text">Company Bio</h5>
-          <p className="grey-text text-lighten-4">
+          <p className="grey-text text-lighten-4 content">
             We are a team of people working on this project . Any amount would
             help support and continue development on this project and is greatly
             appreciated.

@@ -12,6 +12,7 @@ export const Navbar: React.FunctionComponent = () => (
         <li>
             <i className="material-icons left">font_download</i>  <i className="tiny material-icons left">font_download</i> Increase/ Decrease font
             size{" "}
+
         </li>
 
         <li>
