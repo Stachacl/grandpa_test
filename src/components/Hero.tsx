@@ -7,48 +7,56 @@ export const Hero: React.FC = () => {
   return (
     <div className="hero">
       <div className="row">
-        <div className= "col s12 m6 opacity "> 
-        <div className="text-block">
-        <h1> My Grandpa will test your website</h1>
-  
-        <FontSizeChanger
-          targets={["#target .content"]}
-          options={{
-            stepSize: 2,
-            range: 4,
-          }}
-          // customButtons={{
-          //   up: <i className="small material-icons ">font_download</i>,
-          //   down: <i className="tiny material-icons ">font_download</i>,
-          // }}
-         />
-  
-        <div id="target">
-          <h5 className="content">
-            If your business is in a jargon-heavy industry—and you feel it helps
-            your team iterate around common ideas successfully—experiment to be
-            more precise about the jargon that you do use. One way to do this is
-            to develop a set of consistent terminology within your company that
-            everyone understands. <br />
-            If your business is in a jargon-heavy industry—and you feel it helps
-            your team iterate around common ideas successfully—experiment to be
-            more precise about the jargon that you do use. One way to do this is
-            to develop a set of consistent terminology within your company that
-            everyone understands.
-          </h5>
-        </div>
-        </div>
+        <div className="col s12 m6 opacity ">
+          <div className="text-block">
+            <h1> My Grandpa will test your website</h1>
 
-        <div className="p1">
-          <Link to="/pricing" className="waves-effect waves-light btn-large m1">
-            About us
-          </Link>
+            <FontSizeChanger
+              targets={["#target .content"]}
+              options={{
+                stepSize: 2,
+                range: 4,
+              }}
+              // customButtons={{
+              //   up: <i className="small material-icons ">font_download</i>,
+              //   down: <i className="tiny material-icons ">font_download</i>,
+              // }}
+            />
 
-          <Link to="/contact" className="waves-effect waves-light btn-large bg-opacity-10 m1">
-            Contact us
-          </Link>
+            <div id="target">
+              <h5 className="content">
+                If your business is in a jargon-heavy industry—and you feel it
+                helps your team iterate around common ideas
+                successfully—experiment to be more precise about the jargon that
+                you do use. One way to do this is to develop a set of consistent
+                terminology within your company that everyone understands.{" "}
+                <br />
+                If your business is in a jargon-heavy industry—and you feel it
+                helps your team iterate around common ideas
+                successfully—experiment to be more precise about the jargon that
+                you do use. One way to do this is to develop a set of consistent
+                terminology within your company that everyone understands.
+              </h5>
+            </div>
+          </div>
+
+          <div className="p1">
+            <Link
+              to="/pricing"
+              className="btn-large deep-orange darken-2 waves-effect waves-orange m1"
+            >
+              About us
+            </Link>
+
+            <Link
+              to="/contact"
+              className="btn-large  deep-orange darken-4 waves-effect waves-orange bg-opacity-10 m1"
+            >
+              Contact us
+            </Link>
+          </div>
+
         </div>
-       </div>
       </div>
     </div>
   );
