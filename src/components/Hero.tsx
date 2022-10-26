@@ -6,7 +6,8 @@ import FontSizeChanger from "react-font-size-changer";
 export const Hero: React.FC = () => {
   return (
     <div className="hero">
-      <div className="container">
+      <div className="row">
+        <div className= "col s12 m6"> 
         <h1> My Grandpa will test your website</h1>
         <FontSizeChanger
           targets={["#target .content"]}
@@ -20,13 +21,18 @@ export const Hero: React.FC = () => {
           // }}
         />
         <div id="target">
-          <h3 className="content">
+          <h5 className="content">
+            If your business is in a jargon-heavy industry—and you feel it helps
+            your team iterate around common ideas successfully—experiment to be
+            more precise about the jargon that you do use. One way to do this is
+            to develop a set of consistent terminology within your company that
+            everyone understands. <br />
             If your business is in a jargon-heavy industry—and you feel it helps
             your team iterate around common ideas successfully—experiment to be
             more precise about the jargon that you do use. One way to do this is
             to develop a set of consistent terminology within your company that
             everyone understands.
-          </h3>
+          </h5>
         </div>
 
         <div>
@@ -37,6 +43,7 @@ export const Hero: React.FC = () => {
             Launch
           </Link>
         </div>
+       </div>
       </div>
     </div>
   );
