@@ -2,7 +2,7 @@ import React from "react";
 import { Navbar } from "./components/Navbar";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { CheckListPage } from "./pages/CheckListPage";
-import { ContactPage } from "./pages/ContactPage";
+import { ContactPage } from "./pages/ContactPage";                                   
 import { Footer } from "./components/Footer";
 import { Hero } from "./components/Hero";
 
