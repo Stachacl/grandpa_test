@@ -12,7 +12,7 @@ export const Navbar: React.FunctionComponent = () => (
         <li>
           <NavLink to="/">
             {" "}
-            <i className="material-icons left">font_download</i>Increase font
+            <i className="material-icons left">font_download</i>  <i className="tiny material-icons left">font_download</i> Increase/ Decrease font
             size{" "}
           </NavLink>
         </li>
