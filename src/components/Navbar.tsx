@@ -10,11 +10,8 @@ export const Navbar: React.FunctionComponent = () => (
 
       <ul id="nav-mobile" className="right hide-on-med-and-down">
         <li>
-          <NavLink to="/">
-            {" "}
             <i className="material-icons left">font_download</i>  <i className="tiny material-icons left">font_download</i> Increase/ Decrease font
             size{" "}
-          </NavLink>
         </li>
 
         <li>

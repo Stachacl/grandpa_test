@@ -32,7 +32,7 @@ const keyPressHadler = (event: React.KeyboardEvent) => {
         onKeyPress={keyPressHadler}
         type="text"
         id="title"
-        autoFocus
+        // autoFocus
         placeholder="Your custom check point"
       />
       <label htmlFor="title" className="active">
