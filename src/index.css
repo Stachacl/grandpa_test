@@ -35,11 +35,18 @@ code {
   padding-right: 1rem;
 }
 
+.p1 {
+  padding: 1rem;
+}
+
+.m1 {
+  margin: 1rem;
+}
 .mt2 {
   margin-top: 2rem;
 }
 
-.checkListItem {
+/* .checkListItem {
   margin-bottom: 1rem;
 }
 
@@ -60,4 +67,4 @@ code {
 
 .checkListItem i {
   z-index: 2;
-}
+} */

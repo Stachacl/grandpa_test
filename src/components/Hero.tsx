@@ -39,12 +39,13 @@ export const Hero: React.FC = () => {
         </div>
         </div>
 
-        <div>
-          <Link to="/pricing" className="btn">
-            Pricing
+        <div className="p1">
+          <Link to="/pricing" className="waves-effect waves-light btn-large m1">
+            About us
           </Link>
-          <Link to="/contact" className="btn btn-light bg-opacity-10">
-            Launch
+
+          <Link to="/contact" className="waves-effect waves-light btn-large bg-opacity-10 m1">
+            Contact us
           </Link>
         </div>
        </div>
