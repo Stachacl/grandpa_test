@@ -21,6 +21,15 @@ code {
   position: relative;
 }
 
+.btn-large {
+  background-color: #b95702; /* Green */
+  color: white;
+}
+
+.btn-large:hover {
+  background-color:  #7b3a01; /* Green */
+  color: white;
+}
 .row {
   padding: 2rem;
 }
