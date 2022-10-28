@@ -2,9 +2,9 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "../index.css";
 import FontSizeChanger from "react-font-size-changer";
-import { useSpeechSynthesis } from 'react-speech-kit';
 
 export const Hero: React.FC = () => {
+
   return (
     <div className="hero">
       <div className="row">
