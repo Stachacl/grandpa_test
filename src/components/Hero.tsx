@@ -17,11 +17,12 @@ export const Hero: React.FC = () => {
                 stepSize: 2,
                 range: 4,
               }}
-              // customButtons={{
-              //   up: <i className="small material-icons ">font_download</i>,
-              //   down: <i className="tiny material-icons ">font_download</i>,
-              // }}
+              customButtons={{
+                up: <i className="small material-icons a">A</i>, 
+                down: <i className="tiny material-icons a">A</i>,
+              }}
             />
+        
 
             <div id="target">
               <h5 className="content">

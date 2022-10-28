@@ -12,13 +12,13 @@ export const Navbar: React.FunctionComponent = () => (
         
         <li>
           <NavLink to="/">
-            <i className="material-icons left">volume_up</i>Read the page to me
+            <i className="material-icons small left">volume_up</i>Read the page to me
           </NavLink>
         </li>
 
         <li>
           <NavLink to="/contact">
-            <i className="material-icons left">email</i>Contact
+            <i className="material-icons small left">email</i>Contact
           </NavLink>
         </li>
       </ul>

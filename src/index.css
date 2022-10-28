@@ -21,6 +21,14 @@ code {
   position: relative;
 }
 
+.font-size-down:hover {
+  background-color: rgb(214, 130, 79);
+}
+
+.font-size-up:hover {
+  background-color: rgb(214, 130, 79);
+}
+
 .btn-large {
   background-color: #b95702; /* Green */
   color: white;
