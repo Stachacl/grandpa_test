@@ -1,1 +1,1 @@
-declare module 'react-font-size-changer';
+declare module 'react-speech-kit';
