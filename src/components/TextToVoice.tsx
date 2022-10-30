@@ -24,3 +24,7 @@ export const TextToVoice: React.FC = () => {
 export default TextToVoice;
 
 
+// The code above is a combination of these two:
+// https://www.voicerss.org/api/
+// and 
+// https://github.com/petarvujovic98/voice-rss-client
