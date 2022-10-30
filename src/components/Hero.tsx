@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "../index.css";
 import FontSizeChanger from "react-font-size-changer";
+import TextToVoice from "./TextToVoice";
 
 export const Hero: React.FC = () => {
   return (
@@ -40,13 +41,7 @@ export const Hero: React.FC = () => {
             </div>
           </div>
 
-          {/* <button
-           onClick ="responsiveVoice.speak('The Internet is a series of tubes!');"
-            type="button"
-            value="Play"
-          >
-            Play
-          </button> */}
+          <TextToVoice />
 
           <div className="p1 ">
             <Link
