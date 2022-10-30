@@ -4,7 +4,6 @@ import "../index.css";
 import FontSizeChanger from "react-font-size-changer";
 
 export const Hero: React.FC = () => {
-
   return (
     <div className="hero">
       <div className="row">
@@ -19,11 +18,10 @@ export const Hero: React.FC = () => {
                 range: 4,
               }}
               customButtons={{
-                up: <i className="small material-icons a">A</i>, 
+                up: <i className="small material-icons a">A</i>,
                 down: <i className="tiny material-icons a">A</i>,
               }}
             />
-        
 
             <div id="target">
               <h5 className="content">
@@ -42,6 +40,14 @@ export const Hero: React.FC = () => {
             </div>
           </div>
 
+          {/* <button
+           onClick ="responsiveVoice.speak('The Internet is a series of tubes!');"
+            type="button"
+            value="Play"
+          >
+            Play
+          </button> */}
+
           <div className="p1 ">
             <Link
               to="/pricing"
@@ -57,7 +63,6 @@ export const Hero: React.FC = () => {
               Contact us
             </Link>
           </div>
-
         </div>
       </div>
     </div>
