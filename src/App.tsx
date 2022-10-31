@@ -17,7 +17,6 @@ const App: React.FunctionComponent = () => {
             <Route element={<ContactPage />} path="/" />
           </Routes>
         </div>
-
         <Footer />
       </BrowserRouter>
     </>

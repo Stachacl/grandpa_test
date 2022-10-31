@@ -28,7 +28,7 @@ export const TextToVoice: React.FC = () => {
       <div>
         <div>
           <audio autoPlay src={myAudioElement}></audio>
-          <button onClick={handleClick} className="waves-effect waves-light btn-small z-depth-0"> <i className="material-icons left">volume_up</i>click to listen</button>
+          <button onClick={handleClick} className="waves-effect waves-light btn-small z-depth-0"> <i className="material-icons left">volume_up</i>click to listen to the text below</button>
         </div>
       </div>
     </>
