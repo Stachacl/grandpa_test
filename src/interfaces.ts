@@ -6,6 +6,7 @@
 
 
 export interface IInfo {
+
     id: number,
     title: string,
     paragraph: string

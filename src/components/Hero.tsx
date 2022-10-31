@@ -3,14 +3,18 @@ import { Link } from "react-router-dom";
 import "../index.css";
 import FontSizeChanger from "react-font-size-changer";
 import { TextToVoice } from "./TextToVoice";
+import * as prop from "../data.json"
+
 
 export const Hero: React.FC = () => {
+  const title: string = prop.title; 
+
   return (
     <div className="hero">
       <div className="row">
         <div className="col s12 m6 opacity ">
           <div className="text-block">
-            <h1> My Grandpa will test your website</h1>
+            <h1>{title}</h1>
 
             <FontSizeChanger
               targets={["#target .content"]}
