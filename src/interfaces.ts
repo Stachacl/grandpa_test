@@ -6,6 +6,7 @@
 
 
 export interface IInfo {
+heroText: string
 
     id: number,
     title: string,

@@ -1,8 +1,11 @@
 import React from "react";
 import { useState } from "react";
 import { getSpeech } from "voice-rss-client/dist/browser";
+import dataHero from "../dataHero.json"
 
 export const TextToVoice: React.FC = () => {
+
+  const paragraph: string = dataHero.pagagraph; 
 
   const [myAudioElement, setMyAudioElement] = useState(String);
 
@@ -11,7 +14,7 @@ export const TextToVoice: React.FC = () => {
     const downloadedSpeech = getSpeech({
       apiKey: "1dc335953c2b420db1f93a74eab42147",
       language: "en-us",
-      text: "the voice is working",
+      text: paragraph,
     });
 
     downloadedSpeech.then((value) => {

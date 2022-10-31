@@ -3,11 +3,13 @@ import { Link } from "react-router-dom";
 import "../index.css";
 import FontSizeChanger from "react-font-size-changer";
 import { TextToVoice } from "./TextToVoice";
-import * as prop from "../data.json"
+import dataHero from "../dataHero.json"
 
 
 export const Hero: React.FC = () => {
-  const title: string = prop.title; 
+
+  const title: string = dataHero.title; 
+  const paragraph: string = dataHero.pagagraph; 
 
   return (
     <div className="hero">
@@ -30,17 +32,7 @@ export const Hero: React.FC = () => {
 
             <div id="target">
               <h5 className="content">
-                If your business is in a jargon-heavy industry—and you feel it
-                helps your team iterate around common ideas
-                successfully—experiment to be more precise about the jargon that
-                you do use. One way to do this is to develop a set of consistent
-                terminology within your company that everyone understands.{" "}
-                <br />
-                If your business is in a jargon-heavy industry—and you feel it
-                helps your team iterate around common ideas
-                successfully—experiment to be more precise about the jargon that
-                you do use. One way to do this is to develop a set of consistent
-                terminology within your company that everyone understands.
+              {paragraph}
               </h5>
             </div>
           </div>
