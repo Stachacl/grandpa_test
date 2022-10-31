@@ -30,14 +30,24 @@ code {
 }
 
 .btn-large {
-  background-color: #b95702; /* Green */
-  color: white;
+  background-color: #b95702; 
 }
 
 .btn-large:hover {
-  background-color:  #7b3a01; /* Green */
+  background-color:  #7b3a01; 
   color: white;
 }
+
+.btn-small {
+  background-color: transparent;
+  border: 1px solid black;
+  color: rgb(0, 0, 0);
+}
+
+.btn-small:hover {
+  background-color:   rgba(214, 131, 79, 0.548);
+  
+} 
 .row {
   padding: 2rem;
 }

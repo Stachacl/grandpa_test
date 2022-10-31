@@ -35,10 +35,9 @@ export const Hero: React.FC = () => {
               {paragraph}
               </h5>
             </div>
+            <TextToVoice />
           </div>
-
-          <TextToVoice />
-
+       
           <div className="p1 ">
             <Link
               to="/pricing"
