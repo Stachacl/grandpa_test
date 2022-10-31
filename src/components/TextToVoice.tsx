@@ -4,7 +4,7 @@ import { getSpeech } from "voice-rss-client/dist/browser";
 
 export const TextToVoice: React.FC = () => {
 
-  const [myAudioElement, setMyAudioElement] = useState({});
+  const [myAudioElement, setMyAudioElement] = useState(String);
 
   const handleClick = (event: React.MouseEvent<HTMLElement>) => {
 
@@ -24,7 +24,7 @@ export const TextToVoice: React.FC = () => {
     <>
       <div>
         <div>
-          <audio controls src={myAudioElement}></audio>
+          <audio autoPlay src={myAudioElement}></audio>
           <button onClick={handleClick}>Click to read</button>
         </div>
       </div>
