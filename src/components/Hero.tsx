@@ -3,11 +3,15 @@ import { Link } from "react-router-dom";
 import "../index.css";
 import FontSizeChanger from "react-font-size-changer";
 import { TextToVoice } from "./TextToVoice";
-import dataHero from "../dataHero.json";
+import dataHero from "../dataHero.json"
+
 
 export const Hero: React.FC = () => {
-  const title: string = dataHero.title;
-  const paragraph: string = dataHero.pagagraph;
+
+  const title: string = dataHero.title; 
+  const paragraph: string = dataHero.paragraph1; 
+  const paragraph2: string = dataHero.paragraph2; 
+  const paragraph3: string = dataHero.paragraph3; 
 
   return (
     <div className="hero">
@@ -28,12 +32,16 @@ export const Hero: React.FC = () => {
               }}
             />
 
-            <TextToVoice />
+            <TextToVoice /> 
             <div id="target">
-              <h5 className="content">{paragraph}</h5>
+              <h6 className="content">
+              {paragraph} <br/> <br/>  
+              {paragraph2} <br/> <br/> 
+              {paragraph3} 
+              </h6>
             </div>
           </div>
-
+       
           <div className="p1 ">
             <Link
               to="/pricing"

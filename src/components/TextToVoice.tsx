@@ -5,7 +5,9 @@ import dataHero from "../dataHero.json"
 
 export const TextToVoice: React.FC = () => {
 
-  const paragraph: string = dataHero.pagagraph; 
+  const paragraph: string = dataHero.paragraph1;
+  const paragraph2: string = dataHero.paragraph2;  
+
 
   const [myAudioElement, setMyAudioElement] = useState(String);
 
@@ -14,7 +16,7 @@ export const TextToVoice: React.FC = () => {
     const downloadedSpeech = getSpeech({
       apiKey: "1dc335953c2b420db1f93a74eab42147",
       language: "en-us",
-      text: paragraph,
+      text:  paragraph + paragraph2,
     });
 
     downloadedSpeech.then((value) => {
