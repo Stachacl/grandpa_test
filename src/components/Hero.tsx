@@ -16,7 +16,7 @@ export const Hero: React.FC = () => {
   return (
     <div className="hero">
       <div className="row">
-        <div className="col s12 m6 opacity ">
+        <div className="col m12 s12 l7 opacity ">
           <div className="text-block">
             <h1>{title}</h1>
 
@@ -34,11 +34,11 @@ export const Hero: React.FC = () => {
 
             <TextToVoice /> 
             <div id="target">
-              <h6 className="content">
+              <h5 className="content">
               {paragraph} <br/> <br/>  
               {paragraph2} <br/> <br/> 
               {paragraph3} 
-              </h6>
+              </h5>
             </div>
           </div>
        
