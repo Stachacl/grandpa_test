@@ -31,6 +31,7 @@ export const Hero: React.FC = () => {
                 down: <i className="tiny material-icons a">A</i>,
               }}
             />
+            <p> CHANGE FONT SIZE OR... </p>
 
             <TextToVoice /> 
             <div id="target">
@@ -47,14 +48,14 @@ export const Hero: React.FC = () => {
               to="/pricing"
               className=" btn-large waves-effect waves-orange m1"
             >
-              About us
+              TEST MY WEBSITE
             </Link>
 
             <Link
               to="/contact"
               className="btn-large waves-effect waves-orange bg-opacity-10 m1"
             >
-              Contact us
+              ASK QUESTION
             </Link>
           </div>
         </div>

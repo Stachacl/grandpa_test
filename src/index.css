@@ -21,6 +21,7 @@ code {
   position: relative;
 }
 
+
 .font-size-down:hover {
   background-color: rgb(214, 130, 79);
 }
@@ -60,6 +61,11 @@ code {
 .px1 {
   padding-left: 1rem;
   padding-right: 1rem;
+}
+
+.px3 {
+  padding-left: 3.5rem;
+  padding-right: 3rem;
 }
 
 .p1 {

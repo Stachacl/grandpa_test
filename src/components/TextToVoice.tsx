@@ -39,7 +39,8 @@ export const TextToVoice: React.FC = () => {
 
 export default TextToVoice;
 
-// The code above is a combination of these two:
+// The code above is a combination of use these two tools:
+// text to voice API 
 // https://www.voicerss.org/api/
-// and
+// and npm package by:
 // https://github.com/petarvujovic98/voice-rss-client

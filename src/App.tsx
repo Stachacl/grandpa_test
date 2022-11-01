@@ -13,9 +13,9 @@ const App: React.FunctionComponent = () => {
         <Navbar />
         <Hero />
         <div className="container">
-          <Routes>
+          {/* <Routes>
             <Route element={<ContactPage />} path="/" />
-          </Routes>
+          </Routes> */}
         </div>
         <Footer />
       </BrowserRouter>
