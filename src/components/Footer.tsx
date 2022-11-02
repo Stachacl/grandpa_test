@@ -18,33 +18,25 @@ export const Footer: React.FunctionComponent = () => (
             . She is a front-end developer and an acessibility advocate. Read
             her blogposts on Medium or connect with her via Twitter.
           </p>
-        
-            <ul className="left">
-              <li>
-                <a href="sass.html">
-                  <i className="material-icons">search</i>
-                </a>
+         
+            <ul className="social-icons collection">
+              <li className="collection-item"> 
+                <a href="mobile.html"> <i className="fa fa-medium"></i> </a>
               </li>
-              <li>
-                <a href="badges.html">
-                  <i className="material-icons">view_module</i>
-                </a>
+              <li className="collection-item"> 
+                <a href="mobile.html"> <i className="fa fa-twitter"></i> </a>
               </li>
-              <li>
-                <a href="collapsible.html">
-                  <i className="material-icons">refresh</i>
-                </a>
-              </li>
-              <li>
-                <a href="mobile.html">
-                  <i className="fa fa-twitter">more_vert</i>
-                </a>
+              <li className="collection-item"> 
+                <a href="mobile.html"> <i className="fa fa-github"></i> </a>
               </li>
             </ul>
-  
+          
         </div>
       </div>
     </div>
+
+
+
     <div className="footer-copyright">
       <div className="container ml3">© Stacha Clemens 2022</div>
     </div>
