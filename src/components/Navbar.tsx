@@ -17,9 +17,9 @@ export const Navbar: React.FunctionComponent = () => (
         </li> */}
 
         <li>
-          <NavLink to="/contact">
-            <i className="material-icons large left">email</i>CONTACT FORM
-          </NavLink>
+          <a href="https://twitter.com/Stacha_cl">
+            <i className="material-icons large left">email</i>CONTACT 
+          </a>
         </li>
       </ul>
     </div>
