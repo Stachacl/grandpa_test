@@ -11,7 +11,7 @@ export const Footer: React.FunctionComponent = () => (
             This website was made by{" "}
             <a
               className="brown-text text-lighten-3"
-              href="http://materializecss.com"
+              href="https://twitter.com/Stacha_cl"
             >
               Stacha Clemens
             </a>
@@ -38,7 +38,7 @@ export const Footer: React.FunctionComponent = () => (
 
 
     <div className="footer-copyright">
-      <div className="container ml3">© Stacha Clemens 2022</div>
+      <div className="container ml3">© 2022 Stacha Clemens </div>
     </div>
   </footer>
 );
