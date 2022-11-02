@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/grandpa_test/static/css/main.70ab701d.css",
+    "main.js": "/grandpa_test/static/js/main.2b77a2ab.js",
+    "static/js/787.28cb0dcd.chunk.js": "/grandpa_test/static/js/787.28cb0dcd.chunk.js",
+    "index.html": "/grandpa_test/index.html",
+    "main.70ab701d.css.map": "/grandpa_test/static/css/main.70ab701d.css.map",
+    "main.2b77a2ab.js.map": "/grandpa_test/static/js/main.2b77a2ab.js.map",
+    "787.28cb0dcd.chunk.js.map": "/grandpa_test/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.70ab701d.css",
+    "static/js/main.2b77a2ab.js"
+  ]
+}
