@@ -21,13 +21,13 @@ export const Footer: React.FunctionComponent = () => (
          
             <ul className="social-icons">
               <li className=""> 
-                <a href="mobile.html"> <i className="fa fa-medium small"></i> </a>
+                <a href="https://uxdesign.cc/how-to-get-the-most-out-of-the-alt-attribute-4c9b553ca9d9"> <i className="fa fa-medium small"></i> </a>
               </li>
               <li className=""> 
-                <a href="mobile.html"> <i className="fa fa-twitter small"></i> </a>
+                <a href="https://twitter.com/Stacha_cl"> <i className="fa fa-twitter small"></i> </a>
               </li>
               <li className=""> 
-                <a href="mobile.html"> <i className="fa fa-github small"></i> </a>
+                <a href="https://github.com/Stachacl"> <i className="fa fa-github small"></i> </a>
               </li>
             </ul>
           
