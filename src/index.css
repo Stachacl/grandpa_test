@@ -84,6 +84,20 @@ code {
   margin-left: 3rem;
 }
 
+.social-icons li {
+  display: inline;
+}
+
+/* fa is a social media icons classname */
+
+.fa {
+  padding-right: 1rem;
+  color: white;
+}
+
+.fa:hover {
+  color: rgb(226, 194, 194);
+}
 /* .checkListItem {
   margin-bottom: 1rem;
 }

@@ -19,15 +19,15 @@ export const Footer: React.FunctionComponent = () => (
             her blogposts on Medium or connect with her via Twitter.
           </p>
          
-            <ul className="social-icons collection">
-              <li className="collection-item"> 
-                <a href="mobile.html"> <i className="fa fa-medium"></i> </a>
+            <ul className="social-icons">
+              <li className=""> 
+                <a href="mobile.html"> <i className="fa fa-medium small"></i> </a>
               </li>
-              <li className="collection-item"> 
-                <a href="mobile.html"> <i className="fa fa-twitter"></i> </a>
+              <li className=""> 
+                <a href="mobile.html"> <i className="fa fa-twitter small"></i> </a>
               </li>
-              <li className="collection-item"> 
-                <a href="mobile.html"> <i className="fa fa-github"></i> </a>
+              <li className=""> 
+                <a href="mobile.html"> <i className="fa fa-github small"></i> </a>
               </li>
             </ul>
           
