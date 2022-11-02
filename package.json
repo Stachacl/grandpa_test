@@ -13,6 +13,7 @@
     "@types/react-router-dom": "^5.3.3",
     "@types/react-speech-recognition": "^3.9.0",
     "materialize-css": "^1.0.0-rc.2",
+    "materialize-social": "^1.0.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-font-size-changer": "^0.2.0",

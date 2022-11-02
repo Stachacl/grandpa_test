@@ -48,7 +48,7 @@ export const Hero: React.FC = () => {
               to="/pricing"
               className=" btn-large waves-effect waves-orange m1"
             >
-              TEST MY WEBSITE
+              CONTACT PAGE
             </Link>
 
             <Link
