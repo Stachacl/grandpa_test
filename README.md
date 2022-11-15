@@ -33,7 +33,7 @@ Website created with React and TypeScript
 Technologies I used for this project:
 
 - HTML
-- Materialise CSS
+- Materialize CSS
 - CSS
 - TypeScript
 - React
