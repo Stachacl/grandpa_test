@@ -19,6 +19,7 @@ code {
   background-size: cover;
   width: 100%;
   position: relative;
+  background-position-x: right;
 }
 
 
