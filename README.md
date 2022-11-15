@@ -4,7 +4,7 @@
 
 - [Live Demo](#live-demo)
 - [General Info](#general-info)
-- [Scope of Functionalities](#scope-of-functionalities)
+- [Acessibility features](#acessibility-features)
 - [Technologies](#technologies)
 
 ## Live Demo
