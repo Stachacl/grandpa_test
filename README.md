@@ -36,3 +36,4 @@ Technologies I used for this project:
 - TypeScript
 - React
 - GitHup, GH Pages
+- Hubspot contact form
