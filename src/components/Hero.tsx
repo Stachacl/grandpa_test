@@ -18,7 +18,7 @@ export const Hero: React.FC = () => {
       <div className="row">
         <div className="col m12 s12 l7 opacity ">
           <div className="text-block">
-            <h1>{title}</h1>
+            <h2>{title}</h2>
 
             <FontSizeChanger
               targets={["#target .content"]}
@@ -35,11 +35,11 @@ export const Hero: React.FC = () => {
 
             <TextToVoice /> 
             <div id="target">
-              <h5 className="content">
+              <h6 className="content">
               {paragraph} <br/> <br/>  
               {paragraph2} <br/> <br/> 
               {paragraph3} 
-              </h5>
+              </h6>
             </div>
           </div>
        
