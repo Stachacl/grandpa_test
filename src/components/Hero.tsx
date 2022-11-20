@@ -45,17 +45,17 @@ export const Hero: React.FC = () => {
        
           <div className="p1 ">
             <a
-              href="https://twitter.com/Stacha_cl"
+              href="https://share.hsforms.com/1XANtsTuPS0m7FxNeNTqpIQd1ojh"
               className=" btn-large waves-effect waves-orange m1"
             >
               CONTACT
             </a>
 
             <a
-              href="https://share.hsforms.com/1XANtsTuPS0m7FxNeNTqpIQd1ojh"
+              href="https://medium.com/@stacha.l"
               className="btn-large waves-effect waves-orange bg-opacity-10 m1"
             >
-              ASK QUESTION
+              LEARN MORE
             </a>
           </div>
         </div>

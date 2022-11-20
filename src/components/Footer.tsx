@@ -6,7 +6,7 @@ export const Footer: React.FunctionComponent = () => (
     <div className="container m1">
       <div className="row">
         <div className="col l6 s12">
-          <h5 className="white-text">Want to learn more?</h5>
+          <h5 className="white-text">About this website</h5>
           <p className="grey-text text-lighten-4 content">
             This website was made by{" "}
             <a
