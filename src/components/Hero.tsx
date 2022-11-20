@@ -52,7 +52,7 @@ export const Hero: React.FC = () => {
             </a>
 
             <a
-              href="https://twitter.com/Stacha_cl"
+              href="https://share.hsforms.com/1XANtsTuPS0m7FxNeNTqpIQd1ojh"
               className="btn-large waves-effect waves-orange bg-opacity-10 m1"
             >
               ASK QUESTION
