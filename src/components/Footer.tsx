@@ -15,8 +15,8 @@ export const Footer: React.FunctionComponent = () => (
             >
               Stacha Clemens
             </a>
-            . She is a front-end developer and an acessibility advocate. Read
-            her blogposts on Medium or connect with her via Twitter.
+            . She is a front-end developer and an accessibility advocate. Read
+            her blog posts on Medium or connect with her via Twitter.
           </p>
          
             <ul className="social-icons">

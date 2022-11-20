@@ -17,7 +17,7 @@ Website screenshot:
 
 ## General Info
 
-Website created with React and TypeScript
+Website created with React and TypeScript.
 
 ## Acessibility features
 
@@ -37,3 +37,9 @@ Technologies I used for this project:
 - React
 - GitHup, GH Pages
 - Hubspot contact form
+
+## Idea
+
+The goal of creating this website was to raise awareness of web accessibility, particularly for senior users.
+Please read my blog post on this topic on Medium
+https://medium.com/@stacha.l
